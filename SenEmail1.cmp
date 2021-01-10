@@ -1,0 +1,4 @@
+<aura:component controller="renderAsPdfController" implements="force:hasRecordId,force:lightningQuickActionWithoutHeader" access="global" >
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <lightning:quickActionAPI aura:id="quickActionAPI" />
+</aura:component>
